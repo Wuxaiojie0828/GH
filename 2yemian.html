@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop Page</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #ff69b4;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  .product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .product-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  .product-price {
+    color: #333;
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  .product-flash-sale {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  .add-to-cart {
+    background-color: #7ed321;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Shop</h1>
+  <nav>
+    <a href="#">Homepage</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+    <a href="#">Blog</a>
+  </nav>
+</header>
+
+<main class="product-grid">
+  <div class="product-card">
+    <img src="https://cbu01.alicdn.com/img/ibank/2019/617/308/11102803716_819318622.jpg" alt="Short sleeves" class="product-image">
+    <h2 class="product-title">Short sleeves</h2>
+    <p class="product-price">$120.00 <s>$180.00</s></p>
+    <p class="product-flash-sale">Flash sale<br>Ends in 01 h 03 m 59 s</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="product-card">
+    <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.yWHcmD47Z0LIvHWKwKDrpgHaHa?rs=1&pid=ImgDetMain" alt="Down" class="product-image">
+    <h2 class="product-title">Down</h2>
+    <p class="product-price">$650.00 <s>800.00</s></p>
+    <p class="product-flash-sale">Flash sale<br>Ends in 01 h 08 m 59 s</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+  <div class="product-card">
+    <img src="https://cbu01.alicdn.com/img/ibank/2019/337/642/11473246733_1157220614.jpg" alt="shirt" class="product-image">
+    <h2 class="product-title">shirt
+    </h2>
+    <p class="product-price">$90.00 <s>$50.00</s></p>
+    <p class="product-flash-sale">Flash sale<br>Ends in 01 h 08 m 59 s</p>
+    <button class="add-to-cart">Add to Cart</button>
+  </div>
+</main>
+
+<footer>
+  <p>All rights reserved &copy; 2024 Reol Shangwenmin</p>
+</footer>
+
+</body>
+</html>
